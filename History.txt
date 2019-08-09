@@ -1,0 +1,59 @@
+    1  apt-get update ; apt-get install git -y
+    2  git --version
+    3  which git
+    4  mkdir my_git_learning
+    5  cd my_git_learning
+    6  git clone https://github.com/Rakhi18/my_learning.git
+    7  ls
+    8  cd my_learning
+    9  cat README.md
+   10  vi README.md
+   11  ls -ltr
+   12  git add .
+   13  git status
+   14  git log
+   15  git commit -m "added a new file"
+   16  git config --global --edit
+   17  sudo -u
+   18  exit
+   19  mkdir learn
+   20  cd learn
+   21  cd ..
+   22  history
+   23  cd my_git_learning
+   24  su -
+   25  exit
+   26  cd my_learning
+   27  sudo su -
+   28  exit
+   29  ls
+   30  cd /home/ubuntu/
+   31  ls
+   32  cd my_git_learning/
+   33  ls
+   34  cd my_learning/
+   35  ls
+   36  vi README.md 
+   37  ls
+   38  history
+   39  echo "hello_world"> hello_world.txt
+   40  ls -ltr
+   41  git add
+   42  git add .
+   43  git log
+   44  git commit -m "added hello world"
+   45  git logs
+   46  git log
+   47  git config --global --edit
+   48  vi /root/.gitconfig
+   49  git log
+   50  ls
+   51  vi /root/.gitconfig
+   52  cd .git
+   53  ls
+   54  cd HEAD
+   55  cd /ref/head/master
+   56  cd ..
+   57  cd my_learning
+   58  git push
+   59  history > History.txt
